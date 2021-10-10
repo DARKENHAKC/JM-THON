@@ -222,7 +222,7 @@ async def remove_profilepic(delpfp):
     await edit_delete(delpfp, f"⌯︙تـم الحذف {len(input_photos)} من صور حسابك بنجاح ✅")
 
 
-@jmthon.ar_cmd(
+@riothon.ar_cmd(
     pattern="انشائي$",
     command=("انشائي", plugin_category),
     info={
@@ -241,4 +241,4 @@ async def _(event):
     await edit_or_reply(event, output_str)
 
 
-# ملف البروفايل خاص بقناة جمثون
+# ملف البروفايل خاص بقناة ريوثون
